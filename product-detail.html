@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제품 상세 | 달빛의 숨결 침전</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body class="product-page">
+    <header id="header" class="scrolled">
+        <nav class="container">
+            <div class="logo">
+                <a href="/" class="logo-text">달빛의 숨결 <strong>침전</strong></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/#about">브랜드 스토리</a></li>
+                <li><a href="/#products">제품소개</a></li>
+                <li><a href="/#showroom">쇼룸안내</a></li>
+                <li><a href="/#contact">문의하기</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="product-detail-section">
+            <div class="grid">
+                <div class="product-gallery" data-aos="fade-right">
+                    <div class="main-image">
+                        <img src="/products/item1.jpg" alt="프리미엄 플라워 침구 세트">
+                    </div>
+                    <div class="thumbnail-grid">
+                        <img src="/products/item1.jpg" class="active">
+                        <img src="/products/item2.jpg">
+                        <img src="/products/item3.jpg">
+                        <img src="/products/item4.jpg">
+                    </div>
+                </div>
+                <div class="product-info-column" data-aos="fade-left">
+                    <span class="sub-title">Premium Collection</span>
+                    <h1>프리미엄 플라워 가든 침구 세트</h1>
+                    <p class="price">별도 문의</p>
+                    
+                    <div class="product-description">
+                        <p>자연의 싱그러움을 담은 섬세한 플라워 패턴이 돋보이는 침구 세트입니다. 고밀도 순면 소재를 사용하여 피부에 닿는 감촉이 부드럽고 통기성이 뛰어나 사계절 내내 쾌적한 수면 환경을 선사합니다.</p>
+                    </div>
+
+                    <div class="product-meta">
+                        <div class="meta-item">
+                            <strong>소재</strong>
+                            <span>프리미엄 고밀도 순면 100%</span>
+                        </div>
+                        <div class="meta-item">
+                            <strong>구성</strong>
+                            <span>이불 커버 1, 베개 커버 2, 패드 1 (K/Q/S 선택 가능)</span>
+                        </div>
+                        <div class="meta-item">
+                            <strong>세탁방법</strong>
+                            <span>찬물 울코스 세탁 권장</span>
+                        </div>
+                    </div>
+
+                    <div class="cta-group">
+                        <a href="/#contact" class="btn btn-primary btn-block">카카오톡 문의하기</a>
+                        <a href="tel:010-6431-9694" class="btn btn-outline btn-block">전화 상담</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-additional-info section">
+            <div class="tabs">
+                <button class="tab-btn active">상세설명</button>
+                <button class="tab-btn">배송/환불</button>
+                <button class="tab-btn">리뷰 (0)</button>
+            </div>
+            <div class="tab-content">
+                <div class="detail-images">
+                    <img src="/products/item2.jpg" alt="상세컷 1">
+                    <img src="/products/item3.jpg" alt="상세컷 2">
+                    <img src="/products/item4.jpg" alt="상세컷 3">
+                </div>
+                <div class="text-content centered">
+                    <h3>자연과 하나되는 꿈의 시간</h3>
+                    <p>침전의 플라워 가든 컬렉션은 숙련된 장인의 손길을 거쳐 완성됩니다. <br>시각적인 아름다움뿐만 아니라 건강한 수면을 위한 기능성까지 모두 담았습니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="related-products" class="section">
+            <div class="section-header">
+                <h2>추천 제품</h2>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-img"><img src="/products/item5.jpg"></div>
+                    <div class="product-info"><h3>모던 그레이 린넨 세트</h3></div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img"><img src="/products/item6.jpg"></div>
+                    <div class="product-info"><h3>클래식 화이트 호텔 침구</h3></div>
+                </div>
+                <div class="product-card">
+                    <div class="product-img"><img src="/rayon.png"></div>
+                    <div class="product-info"><h3>시원한 통기인견 패드</h3></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <span>달빛의 숨결 <strong>침전</strong></span>
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2024 Chimjeon. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>
